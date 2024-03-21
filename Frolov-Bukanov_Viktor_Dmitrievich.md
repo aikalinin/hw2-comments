@@ -20,8 +20,6 @@
 ### Общее
 
 - нет системы приоритетов (-0.5)
-- для *Посетители могут составлять заказ, выбирая блюда из актуального меню.* нет самого меню (-0.3)
-- нет *Система должна отображать актуальный статус заказа* (-0.3)
 - entityManager.createNativeQuery использовать не имеет смысла, если вы используете репозитории, они
   могут ровно то же самое и вам даже sql запрос писать не нужно. Пример
   для `SELECT * FROM menu WHERE name = '$name' AND description = '$description' AND price = '$price' AND minutes_to_cook = '$minutesToCook'` ->
@@ -44,4 +42,4 @@
   	at ru.hse.restaurant.controllers.AdminControllerImpl.getAverageAssessment(AdminController.kt:141) ~[main/:na]
   ```
 
-### Итог: 6.5
+### Итог: 7.1
