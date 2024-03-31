@@ -12,20 +12,14 @@
 - закомментированные блоки кода
 - catch в один можно было объединить
 
-```java
-        catch(IOException |
-ClassNotFoundException ex){
-    System.out.
-
-println("Десериализация пользователей не удалась");
-        }
-            catch(
-Exception ex){
-    System.out.
-
-println("Десериализация пользователей не удалась");
-        }
-```
+  ```java
+  catch (IOException | ClassNotFoundException ex) {
+    System.out.println("Десериализация пользователей не удалась");
+  }
+  catch (Exception ex) {
+    System.out.println("Десериализация пользователей не удалась");
+  }
+  ```
 
 ### Хранение данных + Понятный интерфейс (-0.7)
 
